@@ -1,0 +1,138 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 10px 10px;
+  justify-content: center;
+}
+
+.cartReport {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartReport img {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.cartReport h1 {
+  color: #2baf2b;
+}
+
+.breakLine {
+  width: 80%;
+  height: 1px;
+  background-color: #2baf2b;
+  margin: 15px 0;
+}
+
+.price {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.price h5 {
+  color: #543729;
+  align-items: center;
+}
+
+.price h3 {
+  color:#00acee;
+}
+
+.totalPrice {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.totalPrice h5 {
+  color: #543729;
+  align-items: center;
+}
+
+.totalPrice h3 {
+  color:#2baf2b;
+}
+
+.totalWeight {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.totalWeight h5 {
+  color: #543729;
+  align-items: center;
+}
+
+.totalWeight h3 {
+  color:#00acee;
+}
+
+.shipping {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.shipping h5 {
+  color: #543729;
+  align-items: center;
+}
+
+.shipping h3 {
+  color:#00acee;
+}
+
+.checkout {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.checkout button {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  background-color: #2baf2b;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.9;
+  transition: 0.3s all;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+.checkout button:hover {
+  transform: scale(0.98);
+}
